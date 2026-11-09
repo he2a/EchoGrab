@@ -1,0 +1,29 @@
+# Auto-generated isolated build environment (portable Python, FFmpeg, Deno, PyInstaller cache)
+build_env/
+
+# Compiled executable and runtime-generated files inside apps/
+# (Keep apps/app.ico tracked so the build script can use the icon)
+apps/EchoGrab.exe
+apps/config.json
+apps/app_debug.log
+
+# Runtime files if running script directly during development
+script/config.json
+script/app_debug.log
+config.json
+app_debug.log
+
+# PyInstaller & Python bytecode artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.spec
+build/
+dist/
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
